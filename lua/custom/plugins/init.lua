@@ -10,12 +10,6 @@ return {
 		opts = {}
 	},
 	{
-		'theHamsta/nvim-dap-virtual-text',
-		config = function()
-			require("nvim-dap-virtual-text").setup({})
-		end
-	},
-	{
 		'jonsmithers/vim-html-template-literals'
 	}
 }
